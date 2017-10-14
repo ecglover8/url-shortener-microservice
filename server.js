@@ -4,7 +4,7 @@ var app = express();
 var mongo = require("mongodb").MongoClient;
 
 // declare variables
-var connection = "mongodb://localhost:27017/shorten";
+var connection = "mongodb://d0na1d:Trump@ds121015.mlab.com:21015/shorten";
 var port = process.env.PORT || 8080;
 var response = {};
 app.use(express.static(__dirname));
